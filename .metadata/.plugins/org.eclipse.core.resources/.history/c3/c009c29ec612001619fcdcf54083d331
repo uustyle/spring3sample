@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN"
+    "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="TestTbl" >
+
+   <typeAlias alias="testtbl" type="sample.biz.domain.TestTbl"/>
+    <!-- owner ormapping -->
+    <resultMap id="testTblResult" class="testtbl">
+        <result property="id" column="ID" />
+        <result property="name" column="NAME"/>   
+    </resultMap>
+
+    <!-- Owner SQL -->
+    <select id="findTestTbl" parameterClass="testtbl" resultMap="testTblResult">
+        select ID, NAME from OWNER
+    </select>
+
+
+
+</sqlMap>

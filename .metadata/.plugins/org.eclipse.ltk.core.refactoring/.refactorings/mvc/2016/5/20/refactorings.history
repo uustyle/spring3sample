@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FileUploadController.java&apos; to &apos;SpringKenshu/src/main/java/jp.co.kenshu.controller&apos;&#x0A;- 元のプロジェクト: &apos;mvc&apos;&#x0A;- 宛先要素: &apos;SpringKenshu/src/main/java/jp.co.kenshu.controller&apos;&#x0A;- オリジナル要素: &apos;sample.customer.web.controller.FileUploadController.java&apos;" description="コンパイル単位をコピー" destination="=SpringKenshu/src\/main\/java&lt;jp.co.kenshu.controller" element1="/src\/main\/java&lt;sample.customer.web.controller{FileUploadController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1462979547073" units="1" version="1.0"/>
+</session>

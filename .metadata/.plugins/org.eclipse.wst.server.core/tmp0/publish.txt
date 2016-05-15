@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue May 03 17:12:15 JST 2016
+org.eclipse.jst.jee.server\:SampleWebApp1=/Users/arakawa/sts-bundle/pivotal-tc-server-developer-3.1.3.SR1/base-instance/wtpwebapps/SampleWebApp1
+org.eclipse.jst.jee.server\:/binary\:/Users/arakawa/.m2/repository/org/springframework/spring-web/3.2.3.RELEASE/spring-web-3.2.3.RELEASE.jar=/Users/arakawa/sts-bundle/pivotal-tc-server-developer-3.1.3.SR1/base-instance/wtpwebapps/SampleWebApp1/WEB-INF/lib/spring-web-3.2.3.RELEASE.jar

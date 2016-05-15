@@ -1,0 +1,7 @@
+package p.co.kenshu.form.employee;
+
+public class EmployeeListForm {
+	private String name;
+    private Integer age;
+    private String memo;
+}

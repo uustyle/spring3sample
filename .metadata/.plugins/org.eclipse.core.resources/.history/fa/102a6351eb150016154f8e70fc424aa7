@@ -1,0 +1,5 @@
+package jp.co.kenshu.controller.api;
+
+public class RestfulController {
+
+}

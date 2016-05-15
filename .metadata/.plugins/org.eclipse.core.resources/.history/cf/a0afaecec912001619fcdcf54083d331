@@ -1,0 +1,8 @@
+package sample.biz.dao;
+
+import sample.biz.domain.Owner;
+
+public interface TestTblDao {
+    Owner getTestTbl(Integer id, String name);
+    
+}

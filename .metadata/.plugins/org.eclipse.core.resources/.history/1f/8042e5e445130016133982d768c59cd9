@@ -1,0 +1,8 @@
+package sample.biz.domain;
+
+import sample.biz.domain.TestTbl;
+
+public interface TestTblDao {
+	TestTbl getTestTbl(Integer id, String name);
+    
+}

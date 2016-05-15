@@ -1,0 +1,29 @@
+package jp.co.kenshu.controller;
+
+@Controller
+public class ValidationSampleController {
+
+    private List<EmployeeDto> employeeList = new ArrayList<>();
+
+    @RequestMapping(value = "/employee/list", method = RequestMethod.GET)
+    public String list(Model model) {
+        model.addAttribute("title", "社員一覧");
+        model.addAttribute("message", "登録社員一覧情報を表示します");
+        EmployeeListForm form = new EmployeeListForm();
+        model.addAttribute("employeeListForm", form);
+        model.addAttribute("employeeList", employeeList);
+        return "employee/list";
+    }
+
+    @RequestMapping(value = "/employee/list", method = RequestMethod.POST)
+    public String list(@ModelAttribute EmployeeListForm form, Model model, BindingResult result) {
+        EmployeeDto dto = new EmployeeDto();
+        BeanUtils.copyProperties(form, dto);
+        employeeList.add(dto);
+        model.addAttribute("title", "社員一覧");
+        model.addAttribute("message", form.getName() + "を登録しました。");
+        model.addAttribute("employeeListForm", new EmployeeListForm());
+        model.addAttribute("employeeList", employeeList);
+        return "employee/list";
+    }
+}

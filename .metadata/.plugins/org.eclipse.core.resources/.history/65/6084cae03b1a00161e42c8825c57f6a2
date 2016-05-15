@@ -1,0 +1,5 @@
+package com.robin.filters;
+
+public class SimpleCORSFilter {
+
+}

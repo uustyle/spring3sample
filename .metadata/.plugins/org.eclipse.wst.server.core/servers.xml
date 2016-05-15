@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" com.springsource.tcserver.asf="false" com.springsource.tcserver.name="base-instance" com.springsource.tcserver.version="8.0.30.C.RELEASE" configuration-id="/Servers/Pivotal tc Server Developer Edition v3.1-config" deployDir="wtpwebapps" hostname="localhost" id="Pivotal tc Server Developer Edition v3.1" id-set="true" name="Pivotal tc Server Developer Edition v3.1" runtime-id="Pivotal tc Server Developer Edition (Runtime) v3.1" saveSeparateContextFiles="true" server-type="com.pivotal.server.tc.80" server-type-id="com.pivotal.server.tc.80" start-timeout="120" stop-timeout="15" testEnvironment="false" timestamp="1">
+    <list key="modules" value0="SampleWebApp1::org.eclipse.jst.jee.server:SampleWebApp1::jst.web::2.5"/>
+    <list key="addExtraVmArgs" value0="-Dinsight.enabled=false"/>
+    <list key="removeExtraVmArgs"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/ローカル・ホスト の Tomcat v7.0 サーバー-config" deployDir="wtpwebapps" hostname="localhost" id="ローカル・ホスト の Tomcat v7.0 サーバー" name="ローカル・ホスト の Tomcat v7.0 サーバー" runtime-id="Apache Tomcat v7.0" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="SpringKenshu::org.eclipse.jst.jee.server:SpringKenshu::jst.web::2.5"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/ローカル・ホスト での Tomcat v7.0 サーバー (2)-config" deployDir="wtpwebapps" hostname="localhost" id="ローカル・ホスト での Tomcat v7.0 サーバー (2)" name="ローカル・ホスト での Tomcat v7.0 サーバー (2)" runtime-id="Apache Tomcat v7.0" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="0"/>
+</servers>

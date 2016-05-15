@@ -1,0 +1,5 @@
+package jp.co.kenshu.dto;
+
+public class ResultDto {
+    private String result;
+}

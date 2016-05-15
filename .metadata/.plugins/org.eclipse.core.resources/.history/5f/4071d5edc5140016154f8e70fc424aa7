@@ -1,0 +1,6 @@
+package jp.co.kenshu.form;
+
+public class TestForm {
+	private int id;
+    private String name;
+}

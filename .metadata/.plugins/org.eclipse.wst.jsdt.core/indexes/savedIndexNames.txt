@@ -1,0 +1,12 @@
+INDEX VERSION 1.3+/Users/arakawa/Documents/workspace-sts-3.7.3.RELEASE/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2482606146.index
+2577044892.index
+885315221.index
+3524484168.index
+1072755226.index
+3703194086.index
+3855085296.index
+1453854656.index
+2739441771.index
+3765163890.index
+448429785.index

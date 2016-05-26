@@ -1,6 +1,0 @@
-package sample.biz.domain;
-
-public interface TestTblDao {
-	TestTbl getTestTbl(Integer id, String name);
-    
-}

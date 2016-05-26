@@ -53,7 +53,11 @@ public class FileUploadController {
 //        LOG.trace("size=" + size);
 //        LOG.trace("contentType=" + contentType);
 //        LOG.trace("fileContents=" + new String(fileContents, "UTF-8"));
+//
+////        throw new RuntimeException();
 
+       System.out.println("OK");
+        
         ResultDto dto = new ResultDto();
         dto.setResult("OK");
         return dto;

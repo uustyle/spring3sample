@@ -1,8 +1,0 @@
-package sample.dao;
-
-import sample.biz.domain.Pet;
-
-@MyMapper
-public interface TestTblMapper {
-    Pet selectPet(int petId);
-}

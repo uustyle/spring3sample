@@ -1,0 +1,20 @@
+package jp.co.kenshu.controller;
+
+public class DownloadController {
+
+	
+	// ContentTypeを指定
+			res.setContentType("text/csv;charset=MS932");
+			String fileName = new String("サンプル.csv".getBytes("MS932"), "ISO-8859-1");
+			// Headerを設定
+			res.setHeader("Content-Disposition", "attachment; filename="+fileName);
+			// 内容を出力
+			PrintWriter writer = res.getWriter();
+			writer.write("hello, world, こんにちは,世界");
+			writer.close();
+	
+	
+	
+	
+	
+}

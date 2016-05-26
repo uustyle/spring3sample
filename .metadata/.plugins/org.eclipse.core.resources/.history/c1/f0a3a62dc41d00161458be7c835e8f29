@@ -1,0 +1,5 @@
+package jp.co.kenshu.controller;
+
+public class DownloadController {
+
+}

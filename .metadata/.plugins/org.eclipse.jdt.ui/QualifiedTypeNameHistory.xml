@@ -4,4 +4,5 @@
 <fullyQualifiedTypeName name="java.util.logging.Level"/>
 <fullyQualifiedTypeName name="java.util.logging.Logger"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.servlet.Filter"/>
 </qualifiedTypeNameHistroy>

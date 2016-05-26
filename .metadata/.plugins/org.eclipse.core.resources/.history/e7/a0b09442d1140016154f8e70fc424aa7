@@ -1,6 +1,0 @@
-package jp.co.kenshu.controller;
-
-@Controller
-public class ValidationSampleController {
-
-}
